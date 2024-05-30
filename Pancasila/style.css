@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.img-logo{
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1.5rem;
+}
+
+/* Hero Section Start */
+.hero-section {
+    background-color: #202020;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.hero-section h5 {
+    color: #f44336;
+    letter-spacing: 1.5px;
+}
+
+.comic-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.comic-button:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+.comic-button:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+/* Hero Section End */
+
+/* Features section Start */
+.features-section {
+    background-color: #fff9d07e;
+}
+
+/* Feature box styling */
+.feature-box {
+    background-color: #1b1b1baf;
+    border-radius: 15px;
+}
+
+/* Icon styling */
+.feature-box .icon img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Text styling */
+.feature-box h4 {
+    color: #ffffff;
+}
+
+.feature-box p {
+    color: #ffffff;
+}
+/* Feature Section End */
+
+/* About Us Section Start */
+.title {
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle {
+    color: #ca0000;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.isi{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.title2{
+    text-align: center;
+    color: #ca0000;
+    font-weight:200;
+}
+.point{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px;
+    font-size: large;
+    font-weight: normal;
+}
+.Point-box {
+    align-items: center;
+    background-color:  #1b1b1baf;
+    border-radius: 30px;
+}
+/* About Us Section End */
+
+.footer {
+    background-color: #323232ef;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
